@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.tr {
+    text-align: right;
+}
+
+.color-white {
+    color: white;
+}
+
+.fontSize14 {
+    font-size: 14px;
+}

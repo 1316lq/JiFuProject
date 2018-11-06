@@ -1,0 +1,99 @@
+html,body {
+    width: 100%;
+}
+
+.topw {
+    position: fixed;
+    width: 100%;
+    height: 112px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 5;
+    color:#FFF;
+}
+
+.topw .toptel {
+    background-color: black;
+    line-height: 30px;
+    color: #ddd;
+}
+
+.content {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.topw .toptel a { color:#ddd; margin-left:15px; }
+
+div >a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.topw .logo {
+    float:left; 
+    width:160px; 
+    font-size:14px; 
+    font-weight:bold; 
+    text-align:center; 
+}
+
+.topw .logo img{
+    width: 140px;
+    display:block;
+    margin: 0 auto;
+}
+
+
+.topw .menu {
+    width: 640px;
+    margin-left: 80px;
+    float: left;
+    height: 82px;
+}
+
+.topw .menu li {
+    float: left;
+    list-style: none;
+    height: 82px;
+    width: 124px;
+    text-align: center;
+}
+
+.topw .menu li a{
+    display: block;
+    line-height: 82px;
+    cursor: pointer;
+}
+
+.topw .menu li a:hover, .on{
+    background: #FFF;
+    color: black;
+}
+
+.topw .logotel {
+    float: right;
+    padding-top: 30px;
+}
+
+.h-banner {
+    position: relative;
+}
+
+.h-banner .hd {
+    position: absolute;
+    bottom: 20px;
+    height: 24px;
+    width: 100%;
+    text-align: center;
+}
+
+.h-banner .hd a {
+    display: inline-block;
+    border: 2px solid white;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    margin: 0 3px;
+    cursor: pointer;
+}
