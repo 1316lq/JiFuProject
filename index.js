@@ -44,4 +44,13 @@ window.onload = function() {
         var $span = $($obj.children("span")[0])
         $span.css("top","200px")
     });
+
+    onscroll = function () {
+        if(document.body.scrollTop<=30&&document.documentElement.scrollTop<=30){
+            $(".topw").css("top","0px");
+        }
+        else {
+            $(".topw").css("top","-30px");
+        }
+    }
 }
