@@ -97,3 +97,68 @@ div >a {
     margin: 0 3px;
     cursor: pointer;
 }
+
+.h-brand>h3 {
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.h-brand ul {overflow: hidden;}
+
+.h-brand li {
+    float: left;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 0;
+    margin-bottom: 24px;
+    border: #999 solid 1px;
+    position: relative;
+    overflow: hidden;
+}
+
+.h-brand li img {
+    width: 165px;
+    height: 175px;
+    cursor: pointer;
+}
+
+.h-brand li span {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 165px;
+    height: 178px;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.h-brand li span::after {
+    content: "尼麻痹";
+    color: white;
+    font-size: 34px;
+    margin-top: 60px;
+    display:block;
+}
+
+.h-brand .more a{
+    display: block;
+    width: 138px;
+    line-height: 64px;
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 64px;
+    border: #999 solid 3px;
+    color: #525252;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.h-brand .more a:hover {
+    background: #DD0000;
+    color: white;
+    border-color: #DD0000;
+}
